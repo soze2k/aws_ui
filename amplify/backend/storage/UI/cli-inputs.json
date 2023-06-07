@@ -1,0 +1,14 @@
+{
+  "resourceName": "UI",
+  "policyUUID": "fcd7ae9d",
+  "bucketName": "awsui520ded119095414e9f2d0b6055da76d6",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
