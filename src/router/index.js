@@ -13,12 +13,12 @@ const routes = [
     {
       path: '/',
       name: 'index',
-      redirect: "/HomePage",
+      redirect: "/homePage",
       children: [
         {
-          path: 'HomePage',
+          path: 'homePage',
           name: 'HomePage',
-          component: () => import('@/view/HomePage.vue'),
+          component: () => import('@/views/HomePage.vue'),
         },
       ]
     },
@@ -39,4 +39,4 @@ const routes = [
     routes
   })
   
-  export default router
+export default router
