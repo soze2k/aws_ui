@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "auth": {
+      "fit5225ass20a3918f4": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "function": {
+      "S3Triggerc3f10bd5": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "storage": {
+      "uploadedimage": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

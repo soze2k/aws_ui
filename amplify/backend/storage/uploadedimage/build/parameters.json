@@ -1,0 +1,32 @@
+{
+  "bucketName": "fit5225ass2bucket01",
+  "selectedGuestPermissions": [],
+  "selectedAuthenticatedPermissions": [
+    "s3:PutObject",
+    "s3:GetObject",
+    "s3:ListBucket",
+    "s3:DeleteObject"
+  ],
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "triggerFunction": "S3Triggerc3f10bd5",
+  "s3PrivatePolicy": "Private_policy_cf59b04b",
+  "s3ProtectedPolicy": "Protected_policy_cf59b04b",
+  "s3PublicPolicy": "Public_policy_cf59b04b",
+  "s3ReadPolicy": "read_policy_cf59b04b",
+  "s3UploadsPolicy": "Uploads_policy_cf59b04b",
+  "authPolicyName": "s3_amplify_cf59b04b",
+  "unauthPolicyName": "s3_amplify_cf59b04b",
+  "AuthenticatedAllowList": "ALLOW",
+  "GuestAllowList": "DISALLOW",
+  "s3PermissionsAuthenticatedPrivate": "s3:PutObject,s3:GetObject,s3:DeleteObject",
+  "s3PermissionsAuthenticatedProtected": "s3:PutObject,s3:GetObject,s3:DeleteObject",
+  "s3PermissionsAuthenticatedPublic": "s3:PutObject,s3:GetObject,s3:DeleteObject",
+  "s3PermissionsAuthenticatedUploads": "s3:PutObject",
+  "s3PermissionsGuestPublic": "DISALLOW",
+  "s3PermissionsGuestUploads": "DISALLOW"
+}
