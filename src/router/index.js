@@ -9,7 +9,6 @@ const routes = [
     path: '/',
     name: 'Home',
     component: HomePage,
-    meta: { requiresAuth: true }, 
   },
   {
     path: '/login',
@@ -20,7 +19,6 @@ const routes = [
     path: '/image',
     name: 'Image',
     component: ImagePage,
-    meta: { requiresAuth: true }, 
   },
 ]
 
