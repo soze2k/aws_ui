@@ -1,4 +1,5 @@
 export type AmplifyDependentResourcesAttributes = {
+<<<<<<< HEAD
   "api": {
     "fit5225ass2api": {
       "ApiId": "string",
@@ -8,6 +9,10 @@ export type AmplifyDependentResourcesAttributes = {
   },
   "auth": {
     "fit5225ass20a3918f4": {
+=======
+  "auth": {
+    "awsuieb41fd0a": {
+>>>>>>> Lee
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -17,6 +22,7 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolName": "string"
     }
   },
+<<<<<<< HEAD
   "function": {
     "S3Triggerc3f10bd5": {
       "Arn": "string",
@@ -35,6 +41,22 @@ export type AmplifyDependentResourcesAttributes = {
   },
   "storage": {
     "uploadedimage": {
+=======
+  "hosting": {
+    "S3AndCloudFront": {
+      "CloudFrontDistributionID": "string",
+      "CloudFrontDomainName": "string",
+      "CloudFrontOriginAccessIdentity": "string",
+      "CloudFrontSecureURL": "string",
+      "HostingBucketName": "string",
+      "Region": "string",
+      "S3BucketSecureURL": "string",
+      "WebsiteURL": "string"
+    }
+  },
+  "storage": {
+    "UI": {
+>>>>>>> Lee
       "BucketName": "string",
       "Region": "string"
     }

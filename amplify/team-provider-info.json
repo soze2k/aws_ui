@@ -1,6 +1,7 @@
 {
   "dev": {
     "awscloudformation": {
+<<<<<<< HEAD
       "AuthRoleName": "amplify-fit5225ass2-dev-93648-authRole",
       "UnauthRoleArn": "arn:aws:iam::569047361208:role/amplify-fit5225ass2-dev-93648-unauthRole",
       "AuthRoleArn": "arn:aws:iam::569047361208:role/amplify-fit5225ass2-dev-93648-authRole",
@@ -31,6 +32,27 @@
       },
       "api": {
         "fit5225ass2api": {}
+=======
+      "AuthRoleName": "amplify-awsui-dev-10751-authRole",
+      "UnauthRoleArn": "arn:aws:iam::569047361208:role/amplify-awsui-dev-10751-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::569047361208:role/amplify-awsui-dev-10751-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-awsui-dev-10751-deployment",
+      "UnauthRoleName": "amplify-awsui-dev-10751-unauthRole",
+      "StackName": "amplify-awsui-dev-10751",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:569047361208:stack/amplify-awsui-dev-10751/1321f960-0545-11ee-b836-06a0d779a9d0",
+      "AmplifyAppId": "d3t2mw7o93eq4i"
+    },
+    "categories": {
+      "auth": {
+        "awsuieb41fd0a": {}
+      },
+      "storage": {
+        "UI": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+>>>>>>> Lee
       }
     }
   }
