@@ -34,11 +34,12 @@ router.beforeEach(async (to, from, next) => {
   const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
   const currentUser = await Auth.currentUserInfo();
 
-  if (requiresAuth && !currentUser) {
+  if (requiresAuth && currentUser === null) {
     next('/login');
   } else {
     next();
   }
+  
 });
 
 export default router
