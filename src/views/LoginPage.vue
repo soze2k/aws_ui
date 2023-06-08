@@ -1,39 +1,22 @@
 <template>
     <div>
       <h1>Login</h1>
-      <button class="btn" @click="login">Go to Login</button>
+      <a :href="loginURL" @click="redirectToLogin">Go to Login</a>
     </div>
-  </template>
-  
-  <script>
-  import { Auth } from 'aws-amplify';
-  
-  export default {
-    methods: {
-      async login() {
-        try {
-          await Auth.federatedSignIn({ provider: 'Cognito' });
-        } catch (error) {
-          console.error(error);
-        }
-      },
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+        loginURL: 'https://cloudsnapgroup15.auth.ap-southeast-2.amazoncognito.com/login?response_type=code&client_id=78acqta94st5tcnes8s3c66s94&redirect_uri=http://localhost:8000/',
+    };
+  },
+  methods: {
+    redirectToLogin() {
+      window.location.href = this.loginURL;
     },
-  };
-  </script>
-  
-  <style scoped>
-  .btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #009688;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #00695c;
-  }
-  </style>
-  
+  },
+};
+</script>
+
