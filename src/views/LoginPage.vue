@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-        loginURL: 'https://cloudsnapgroup15.auth.ap-southeast-2.amazoncognito.com/login?response_type=token&client_id=78acqta94st5tcnes8s3c66s94&redirect_uri=http://localhost:8000/',
+        loginURL: 'https://cloudsnapgroup15.auth.ap-southeast-2.amazoncognito.com/login?response_type=code&client_id=78acqta94st5tcnes8s3c66s94&redirect_uri=http://localhost:8000/',
     };
   },
   methods: {
